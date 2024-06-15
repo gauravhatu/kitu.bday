@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitu's Birthday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="giftBox" onclick="revealContent()">
+        <img src="gift_box.png" alt="Gift Box" id="giftImage">
+        <p>Click the gift box!</p>
+    </div>
+    <div id="birthdayContent" style="display:none;">
+        <h1>Happy Birthday, Kitu! 🎉</h1>
+        <p>Birthday: 16.6.2007</p>
+        <p>Age: 17</p>
+        <h2>Wishes from Gaurav:</h2>
+        <p>Happy Birthday, Kitu! May your day be filled with joy, laughter, and all the things you love. You are an amazing person and you deserve the best! 🎂</p>
+        <h2>Your Qualities:</h2>
+        <ul>
+            <li>Beautiful Eyes 👀</li>
+            <li>Sweet Voice 🎤</li>
+            <li>Pure Heart ❤</li>
+            <li>Wonderful Soul 🌟</li>
+            <li>Intelligent Mind 🧠</li>
+            <li>Charming Personality ✨</li>
+        </ul>
+    </div>
+    <audio id="birthdaySong" src="happy_birthday_song.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
